@@ -1,0 +1,22 @@
+{
+  "name": "Socket Server Game",
+  "description": "socket.io game with react-native and esp32/8266",
+  "website": "https://github.com/chuchunmaru/socket.io-game",
+  "repository": "https://github.com/chuchunmaru/socket.io-game",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "success_url": "/",
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "realtime",
+    "websocket"
+  ],
+  "scripts": {
+  },
+  "addons": [
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs"
+  }
+}
