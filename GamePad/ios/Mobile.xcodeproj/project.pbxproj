@@ -16,6 +16,7 @@
 		5407EB937D6A4B108F8DD763 /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A78CE005294542F89EEF3880 /* DS-DIGIB.TTF */; };
 		532760CE55B1447DB99668CB /* DS-DIGII.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 29BC324714B846D499C2A447 /* DS-DIGII.TTF */; };
 		D955AE372C0547BF91C426C6 /* DS-DIGIT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7F199292D67D477AA0385CD5 /* DS-DIGIT.TTF */; };
+		0D96E64AC8A141D79F851BE9 /* zrnic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D596012C80534D6B9751D6E2 /* zrnic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A78CE005294542F89EEF3880 /* DS-DIGIB.TTF */ = {isa = PBXFileReference; name = "DS-DIGIB.TTF"; path = "../assets/fonts/DS-DIGIB.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		29BC324714B846D499C2A447 /* DS-DIGII.TTF */ = {isa = PBXFileReference; name = "DS-DIGII.TTF"; path = "../assets/fonts/DS-DIGII.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		7F199292D67D477AA0385CD5 /* DS-DIGIT.TTF */ = {isa = PBXFileReference; name = "DS-DIGIT.TTF"; path = "../assets/fonts/DS-DIGIT.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D596012C80534D6B9751D6E2 /* zrnic.ttf */ = {isa = PBXFileReference; name = "zrnic.ttf"; path = "../assets/fonts/zrnic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				A78CE005294542F89EEF3880 /* DS-DIGIB.TTF */,
 				29BC324714B846D499C2A447 /* DS-DIGII.TTF */,
 				7F199292D67D477AA0385CD5 /* DS-DIGIT.TTF */,
+				D596012C80534D6B9751D6E2 /* zrnic.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				5407EB937D6A4B108F8DD763 /* DS-DIGIB.TTF in Resources */,
 				532760CE55B1447DB99668CB /* DS-DIGII.TTF in Resources */,
 				D955AE372C0547BF91C426C6 /* DS-DIGIT.TTF in Resources */,
+				0D96E64AC8A141D79F851BE9 /* zrnic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

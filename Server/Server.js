@@ -5,22 +5,25 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 const port = process.env.PORT || 3000;
 var path = require('path')
-var htmlPath = path.join(__dirname, 'game')
+const bodyParser = require('body-parser')
+const localhost = require("ip").address()
+const qr = require('qrcode')
 
-app.use(express.static(htmlPath));
+app.set('view engine', 'ejs')
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/public'));
+app.use(express.static('public')); 
+app.use(express.static('views')); 
+app.use(bodyParser.json());
+
+app.get('/', (req, res) => {
+  res.render('index')
+})
 
 
-io.on('connection', (socket) => {
-  socket.on('tempest', msg => {
 
-    console.log(msg)
-
-  });
-});
 
 http.listen(port, () => {
   console.log(`Opening game in : localhost:${port}`)
-  require('dns').lookup(require('os').hostname(), function (err, add, fam) {
-    //open(`http://${add}:${port}`)
-  })
 });
