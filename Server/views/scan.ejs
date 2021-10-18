@@ -9,9 +9,18 @@
     <div class="qrcode">
         <img src=<%=src%> style="height:60vh" alt="">
     </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io();
+        socket.on('tempest', function (msg) {
+            if (msg == 'deviceConnected') {
+                window.open('/game', '_self', false)
+            }
+        });
+    </script>
 </body>
 <style>
-    body{
+    body {
         overflow: hidden;
         background-color: black;
         height: 100vh;
@@ -21,4 +30,5 @@
         display: flex;
     }
 </style>
+
 </html>
